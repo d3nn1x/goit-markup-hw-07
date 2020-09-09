@@ -1,0 +1,39 @@
+.works-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.work-list-item {
+  position: relative;
+  margin-right: 30px;
+  margin-bottom: 30px;
+
+  &:nth-child(3n) {
+    margin-right: 0;
+  }
+
+  &:nth-last-child(-n + 3) {
+    margin-bottom: 0;
+  }
+}
+
+.work-list-text {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 70px;
+  background: rgba(47, 48, 58, 0.8);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #fff;
+}

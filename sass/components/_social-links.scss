@@ -1,0 +1,33 @@
+.social-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.social-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.social-link {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  color: #afb1b8;
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+
+  &:hover,
+  &:focus {
+    background-color: $accent-color;
+    color: #fff;
+  }
+}
+
+.social-link-svg {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
