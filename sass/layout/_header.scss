@@ -41,10 +41,9 @@
 
 .nav-list-item {
   margin-right: 50px;
-}
-
-.nav-list-item:last-child {
-  margin-right: 0;
+  & :last-child {
+    margin-right: 0;
+  }
 }
 
 .header-address {

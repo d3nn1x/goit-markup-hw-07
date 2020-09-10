@@ -99,9 +99,6 @@ button {
 
 .social-list {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: flex-start;
 }
 
 .social-item:not(:last-child) {
@@ -198,7 +195,7 @@ button {
   margin-right: 50px;
 }
 
-.nav-list-item:last-child {
+.nav-list-item :last-child {
   margin-right: 0;
 }
 
